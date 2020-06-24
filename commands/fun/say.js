@@ -8,6 +8,5 @@ module.exports = {
     if (!MSG)
       return message.channel.send(`You did not specify your message to send!`);
     message.channel.send(MSG);
-    message.delete();
   },
 };
